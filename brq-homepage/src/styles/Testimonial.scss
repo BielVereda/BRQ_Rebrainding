@@ -4,17 +4,20 @@
 
     .testimonial-content {
         display: flex;
-        justify-content: space-between;
+        justify-content: center; // centraliza melhor
         align-items: center;
+        gap: 2rem; // aproxima texto e imagem
 
         @media (max-width: 768px) {
             flex-direction: column;
             text-align: center;
+            gap: 1.5rem;
         }
     }
 
     &-text {
-        max-width: 50%;
+        max-width: 45%; // reduz para ficar mais próximo da imagem
+        line-height: 1.6;
 
         @media (max-width: 768px) {
             max-width: 100%;
@@ -22,25 +25,47 @@
     }
 
     &-quote {
-        font-size: 1.5rem;
+        font-size: 1.4rem;
         margin-bottom: 1rem;
-        color: white;
+        color: #ffffff;
         font-style: italic;
+        line-height: 1.6;
+        position: relative;
+
+        &:before {
+            content: "“";
+            font-size: 2rem;
+            color: #FF6600;
+            position: absolute;
+            left: -1.2rem;
+            top: -0.5rem;
+        }
+
+        &:after {
+            content: "”";
+            font-size: 2rem;
+            color: #FF6600;
+            position: absolute;
+            right: -1rem;
+            bottom: -0.5rem;
+        }
     }
 
     &-author {
-        color: #FF6600;
-        font-weight: bold;
+        color: #FF8533;
+        font-weight: 600;
+        font-size: 1rem;
+        margin-top: 0.5rem;
     }
 
     &-image img {
-        width: 200px;
+        width: 180px;
         height: auto;
         object-fit: contain;
 
         @media (max-width: 768px) {
-            margin-top: 2rem;
-            width: 150px;
+            margin-top: 1.5rem;
+            width: 140px;
         }
     }
 }

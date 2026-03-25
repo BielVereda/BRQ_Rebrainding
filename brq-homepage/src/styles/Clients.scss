@@ -3,15 +3,12 @@
     text-align: center;
     padding: 3rem 0;
 
-    &-title {
-        color: #FF6600;
-        margin-bottom: 1.5rem;
-    }
-
     &-logos {
         display: flex;
         justify-content: center;
+        flex-wrap: wrap;
         gap: 2rem;
+        transition: opacity 1s ease;
 
         img {
             height: 40px;
@@ -19,13 +16,20 @@
             transition: transform 0.3s ease;
 
             &:hover {
-                transform: scale(1.1);
+                transform: scale(1.2);
             }
         }
 
         @media (max-width: 768px) {
-            flex-wrap: wrap;
             gap: 1rem;
         }
+    }
+
+    .fade-in {
+        opacity: 1;
+    }
+
+    .fade-out {
+        opacity: 0;
     }
 }

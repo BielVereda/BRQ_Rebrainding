@@ -4,7 +4,7 @@ export default function Services() {
     return (
         <section className="services">
             <div className="container">
-                <h2 className="services-title">Nossas Especializações</h2>
+                <h2 className="services-title">Histórias de sucesso</h2>
                 <div className="services-grid">
                     <div className="card">
                         <h3>Inteligência Artificial</h3>
