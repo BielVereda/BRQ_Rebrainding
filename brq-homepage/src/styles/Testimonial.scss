@@ -1,0 +1,46 @@
+.testimonial {
+    background: linear-gradient(180deg, #0A1F44 0%, #132A5C 100%);
+    padding: 4rem 0;
+
+    .testimonial-content {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        @media (max-width: 768px) {
+            flex-direction: column;
+            text-align: center;
+        }
+    }
+
+    &-text {
+        max-width: 50%;
+
+        @media (max-width: 768px) {
+            max-width: 100%;
+        }
+    }
+
+    &-quote {
+        font-size: 1.5rem;
+        margin-bottom: 1rem;
+        color: white;
+        font-style: italic;
+    }
+
+    &-author {
+        color: #FF6600;
+        font-weight: bold;
+    }
+
+    &-image img {
+        width: 200px;
+        height: auto;
+        object-fit: contain;
+
+        @media (max-width: 768px) {
+            margin-top: 2rem;
+            width: 150px;
+        }
+    }
+}

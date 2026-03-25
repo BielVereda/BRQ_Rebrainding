@@ -1,0 +1,31 @@
+.clients {
+    background: linear-gradient(180deg, #0A1F44 0%, #132A5C 100%);
+    text-align: center;
+    padding: 3rem 0;
+
+    &-title {
+        color: #FF6600;
+        margin-bottom: 1.5rem;
+    }
+
+    &-logos {
+        display: flex;
+        justify-content: center;
+        gap: 2rem;
+
+        img {
+            height: 40px;
+            filter: brightness(0) invert(1);
+            transition: transform 0.3s ease;
+
+            &:hover {
+                transform: scale(1.1);
+            }
+        }
+
+        @media (max-width: 768px) {
+            flex-wrap: wrap;
+            gap: 1rem;
+        }
+    }
+}

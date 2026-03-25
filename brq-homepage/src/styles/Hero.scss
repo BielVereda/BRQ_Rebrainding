@@ -1,0 +1,96 @@
+.hero {
+    background: linear-gradient(180deg, #0A1F44 0%, #132A5C 100%);
+    padding: 6rem 0;
+
+    .hero-content {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 2rem;
+
+        @media (max-width: 768px) {
+            flex-direction: column;
+            text-align: center;
+            gap: 1.5rem;
+        }
+    }
+
+    .hero-text {
+        flex: 1;
+        max-width: 45%;
+        @media (max-width: 768px) {
+            max-width: 100%;
+        }
+    }
+
+    .hero-title {
+        font-size: 3rem;
+        font-weight: 700;
+        margin-bottom: 1rem;
+        color: #ffffff;
+        animation: fadeIn 1.2s ease forwards;
+    }
+
+    .hero-subtitle {
+        font-size: 1.2rem;
+        margin-bottom: 2rem;
+        color: #dddddd;
+        line-height: 1.5;
+        animation: fadeIn 1.5s ease forwards;
+    }
+
+    .hero-buttons {
+        display: flex;
+        gap: 1rem;
+
+        .btn-orange {
+            background: linear-gradient(90deg, #FF6600 0%, #FF8533 100%);
+            color: #fff;
+            border: none;
+            padding: 0.75rem 1.5rem;
+            border-radius: 4px;
+            font-weight: 600;
+            transition: all 0.3s ease;
+
+            &:hover {
+                background: linear-gradient(90deg, #FF8533 0%, #FF6600 100%);
+                transform: translateY(-3px);
+            }
+        }
+
+        .btn-outline {
+            background: transparent;
+            border: 2px solid #fff;
+            color: #fff;
+            padding: 0.75rem 1.5rem;
+            border-radius: 4px;
+            font-weight: 600;
+            transition: all 0.3s ease;
+
+            &:hover {
+                background-color: #fff;
+                color: #0A1F44;
+                transform: translateY(-3px);
+            }
+        }
+    }
+
+    .hero-image {
+        flex: 1;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        .hero-graphic {
+            max-width: 400px;
+            height: auto;
+            object-fit: contain;
+            animation: fadeIn 2s ease forwards;
+
+            @media (max-width: 768px) {
+                margin-top: 2rem;
+                max-width: 300px;
+            }
+        }
+    }
+}

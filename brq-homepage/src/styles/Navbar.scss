@@ -1,0 +1,55 @@
+.navbar {
+    background: linear-gradient(180deg, #0A1F44 0%, #132A5C 100%);
+    padding: 1rem 0;
+    animation: fadeIn 1s ease forwards;
+
+    .navbar-content {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .logo {
+        height: 40px;
+    }
+
+    .menu {
+        display: flex;
+        gap: 2rem;
+        list-style: none;
+        color: white;
+
+        li {
+            position: relative;
+            cursor: pointer;
+            transition: color 0.3s ease;
+
+            &:hover {
+                color: #FF6600;
+            }
+
+            &:after {
+                content: "";
+                position: absolute;
+                bottom: -5px;
+                left: 0;
+                width: 0%;
+                height: 2px;
+                background: #FF6600;
+                transition: width 0.3s ease;
+            }
+
+            &:hover:after {
+                width: 100%;
+            }
+        }
+    }
+
+    .contact-btn {
+        background: linear-gradient(90deg, #FF6600 0%, #FF8533 100%);
+        border: none;
+        color: white;
+        padding: 0.5rem 1rem;
+        border-radius: 4px;
+    }
+}

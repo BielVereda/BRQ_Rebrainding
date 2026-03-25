@@ -1,0 +1,40 @@
+.footer {
+    background: linear-gradient(180deg, #0A1F44 0%, #132A5C 100%);
+    padding: 2rem 0;
+    text-align: center;
+    border-top: 1px solid #132A5C;
+
+    &-content {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 1rem;
+
+        p {
+            margin: 0;
+            color: #ccc;
+        }
+
+        .footer-links {
+            display: flex;
+            gap: 1.5rem;
+            list-style: none;
+            padding: 0;
+
+            li {
+                color: white;
+                cursor: pointer;
+                transition: color 0.3s ease;
+
+                &:hover {
+                    color: #FF6600;
+                }
+            }
+
+            @media (max-width: 600px) {
+                flex-direction: column;
+                gap: 0.5rem;
+            }
+        }
+    }
+}
