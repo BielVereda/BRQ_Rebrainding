@@ -1,5 +1,11 @@
 import "../../styles/home/Hero.scss";
-import heroImg from "../../assets/images/hero.png";
+import { Canvas } from "@react-three/fiber";
+import { OrbitControls, useGLTF } from "@react-three/drei";
+
+function BrainModel() {
+  const { scene } = useGLTF("./../../../public/models/3d-orange-brain.glb");
+  return <primitive object={scene} scale={1.5} />;
+}
 
 export default function Hero() {
   return (
@@ -18,7 +24,15 @@ export default function Hero() {
         </div>
         <div className="hero-image">
           <div className="image-glow"></div>
-          <img src={heroImg} alt="Gráfico 3D" className="hero-graphic" />
+
+          {/* Canvas 3D com o cérebro */}
+          <Canvas style={{ height: 300, width: 300 }}>
+            <ambientLight intensity={0.5} />
+            <directionalLight position={[5, 5, 5]} intensity={1} />
+            <BrainModel />
+            <OrbitControls />
+          </Canvas>
+
         </div>
       </div>
     </section>
