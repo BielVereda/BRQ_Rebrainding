@@ -1,12 +1,11 @@
 .testimonial {
     background: linear-gradient(180deg, #0A1F44 0%, #132A5C 100%);
-    padding: 4rem 0;
+    padding: 1.5rem 0;
 
     .testimonial-content {
         display: flex;
-        justify-content: center; // centraliza melhor
+        justify-content: center;
         align-items: center;
-        gap: 2rem; // aproxima texto e imagem
 
         @media (max-width: 768px) {
             flex-direction: column;
@@ -16,8 +15,9 @@
     }
 
     &-text {
-        max-width: 45%; // reduz para ficar mais próximo da imagem
+        max-width: 45%;
         line-height: 1.6;
+        text-align: center;
 
         @media (max-width: 768px) {
             max-width: 100%;
@@ -32,23 +32,6 @@
         line-height: 1.6;
         position: relative;
 
-        &:before {
-            content: "“";
-            font-size: 2rem;
-            color: #FF6600;
-            position: absolute;
-            left: -1.2rem;
-            top: -0.5rem;
-        }
-
-        &:after {
-            content: "”";
-            font-size: 2rem;
-            color: #FF6600;
-            position: absolute;
-            right: -1rem;
-            bottom: -0.5rem;
-        }
     }
 
     &-author {
@@ -56,6 +39,7 @@
         font-weight: 600;
         font-size: 1rem;
         margin-top: 0.5rem;
+        text-align: center;
     }
 
     &-image img {
