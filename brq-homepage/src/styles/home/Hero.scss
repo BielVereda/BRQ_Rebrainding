@@ -8,10 +8,10 @@
         align-items: center;
         gap: 2rem;
 
-        @media (max-width: 768px) {
+        @media (max-width: 1024px) {
             flex-direction: column;
             text-align: center;
-            gap: 1.5rem;
+            gap: 2rem;
         }
     }
 
@@ -19,13 +19,13 @@
         flex: 1;
         max-width: 50%;
 
-        @media (max-width: 768px) {
+        @media (max-width: 1024px) {
             max-width: 100%;
         }
     }
 
     .hero-title {
-        font-size: 3rem;
+        font-size: clamp(2rem, 5vw, 3rem);
         font-weight: 700;
         margin-bottom: 1rem;
         color: #ffffff;
@@ -33,7 +33,7 @@
     }
 
     .hero-subtitle {
-        font-size: 1.2rem;
+        font-size: clamp(1rem, 2.5vw, 1.2rem);
         margin-bottom: 2rem;
         color: #dddddd;
         line-height: 1.5;
@@ -46,7 +46,7 @@
         flex-wrap: wrap;
         justify-content: flex-start;
 
-        @media (max-width: 768px) {
+        @media (max-width: 1024px) {
             justify-content: center;
         }
 
@@ -91,8 +91,8 @@
 
         .image-glow {
             position: absolute;
-            width: 400px;
-            height: 400px;
+            width: clamp(200px, 40vw, 400px);
+            height: clamp(200px, 40vw, 400px);
             border-radius: 50%;
             background: radial-gradient(circle, rgba(255, 102, 0, 0.4) 0%, transparent 80%);
             filter: blur(60px);
@@ -100,22 +100,24 @@
             animation: pulseGlow 3s infinite ease-in-out;
         }
 
-        .hero-graphic {
-            max-width: 400px;
+        canvas {
+            width: 100%;
             height: auto;
-            object-fit: contain;
-            animation: fadeIn 2s ease forwards;
+            max-width: 600px;
+            max-height: 600px;
             position: relative;
             z-index: 1;
 
-            @media (max-width: 768px) {
-                margin-top: 2rem;
-                max-width: 200px;
+            @media (max-width: 1024px) {
+                max-width: 400px;
+                max-height: 400px;
+                margin-top: 0;
+            }
 
-                .image-glow {
-                    width: 200px;
-                    height: 200px;
-                }
+            @media (max-width: 968px) {
+                max-width: 200px;
+                max-height: 200px;
+                margin-top: 0;
             }
         }
     }
@@ -133,7 +135,7 @@
     }
 
     100% {
-        opacity: 0.6;
+        opacity: 0.8;
         transform: scale(1);
     }
 }
