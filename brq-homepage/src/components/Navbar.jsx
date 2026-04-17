@@ -1,5 +1,5 @@
 import "../styles/navbar.scss";
-import logo from "../../public/assets/images/logo.png";
+import logo from "/assets/images/logo.png";
 import { useState } from "react";
 
 export default function Navbar() {
