@@ -1,5 +1,5 @@
 import { useState, useEffect } from "react";
-import "../../styles/home/Clients.scss";
+import "../../styles/home/clients.scss";
 
 const clientsList = [
     { src: "../src/assets/images/logo_ab-inbev.png", alt: "AB InBev" },

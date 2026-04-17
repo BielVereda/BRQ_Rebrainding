@@ -1,4 +1,4 @@
-import "../styles/Navbar.scss";
+import "../styles/navbar.scss";
 import logo from "../assets/images/logo.png";
 import { useState } from "react";
 

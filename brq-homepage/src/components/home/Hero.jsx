@@ -1,4 +1,4 @@
-import "../../styles/home/Hero.scss";
+import "../../styles/home/hero.scss";
 import { Canvas, useFrame } from "@react-three/fiber";
 import { useGLTF } from "@react-three/drei";
 import { useRef } from "react";
