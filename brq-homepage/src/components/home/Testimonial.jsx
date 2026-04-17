@@ -1,5 +1,5 @@
 import '../../styles/home/testimonial.scss';
-import personImg from '../../assets/images/testimonial.png';
+import personImg from '../../../public/assets/images/testimonial.png';
 
 export default function Testimonial() {
     return (

@@ -1,9 +1,9 @@
 import '../../styles/home/services.scss';
 
-import IA from "./../../assets/images/ia.png"
-import PD from "./../../assets/images/produtos_digitais.png"
-import DA from "./../../assets/images/data_analytics.png"
-import M from "./../../assets/images/modernizacao.png"
+import IA from "./../../../public/assets/images/ia.png"
+import PD from "./../../../public/assets/images/produtos_digitais.png"
+import DA from "./../../../public/assets/images/data_analytics.png"
+import M from "./../../../public/assets/images/modernizacao.png"
 
 export default function Services() {
     return (
