@@ -3,7 +3,7 @@ import { Canvas, useFrame } from "@react-three/fiber";
 import { useGLTF } from "@react-three/drei";
 import { useRef } from "react";
 import * as THREE from "three";
-import brainModelUrl from "../../assets/models/3d-orange-brain.glb";
+import brainModelUrl from "../../../public/models/3d-orange-brain.glb";
 
 function BrainModel() {
   const { scene } = useGLTF(brainModelUrl);
