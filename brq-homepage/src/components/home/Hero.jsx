@@ -35,7 +35,10 @@ export default function Hero() {
           </p>
           <div className="hero-buttons">
             <button className="btn-orange">Nossas Soluções</button>
-            <button className="btn-outline">Conheça a BRQ</button>
+            <button className="btn-outline">
+              Conheça a BRQ
+              <img src="/assets/images/arrow.svg" alt="arrow" />
+            </button>
           </div>
         </div>
         <div className="hero-image">
