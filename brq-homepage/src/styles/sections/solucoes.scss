@@ -1,0 +1,52 @@
+.solucoes {
+    background: #0A1F44;
+    padding: 8rem 2rem;
+
+    .solucoes-title {
+        text-align: center;
+        color: #FF6600;
+        margin-bottom: 4rem;
+        font-size: clamp(2rem, 5vw, 3rem);
+    }
+
+    .solucoes-cards {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+        gap: 2rem;
+
+        .card {
+            background: #132A5C;
+            border: 2px solid transparent;
+            border-image: linear-gradient(90deg, #FF6600, #FF8533) 1;
+            padding: 2rem;
+            border-radius: 12px;
+            color: #fff;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+
+            &:hover {
+                transform: translateY(-10px);
+                box-shadow: 0 12px 25px rgba(255, 102, 0, 0.4);
+            }
+
+            h3 {
+                color: #FF8533;
+                margin-bottom: 1rem;
+            }
+
+            ul {
+                list-style: none;
+                padding: 0;
+
+                li {
+                    margin-bottom: 0.5rem;
+
+                    &::before {
+                        content: "✔";
+                        color: #FF6600;
+                        margin-right: 0.5rem;
+                    }
+                }
+            }
+        }
+    }
+}
