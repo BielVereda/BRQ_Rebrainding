@@ -44,7 +44,8 @@ export default function Clients() {
     }, []);
 
     return (
-        <section className="clients">
+        <section id="clients" className="clients">
+            <h2 className="cases-title">Casos de Sucesso</h2>
             <div className="container">
                 <div className={`clients-logos ${fade ? "fade-in" : "fade-out"}`}>
                     {clientGroups[groupIndex].map((client, i) => (

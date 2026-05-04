@@ -61,7 +61,8 @@ export default function Services() {
     const currentService = servicesData.find(s => s.id === active);
 
     return (
-        <section className="services">
+        <section id="services" className="services">
+            <h2 className="services-title">Serviços</h2>
             <div className="container services-layout">
                 {/* Sidebar */}
                 <aside className="services-sidebar">
