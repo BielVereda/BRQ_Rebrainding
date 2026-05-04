@@ -1,4 +1,4 @@
-import '../../styles/home/testimonial.scss';
+import '../styles/home/testimonial.scss';
 import personImg from '/assets/images/testimonial.png';
 
 export default function Testimonial() {
