@@ -1,0 +1,41 @@
+import "../styles/pages/privacity.scss";
+
+export default function Privacity() {
+    return (
+        <div className="page privacidade">
+            <section className="page-header">
+                <h1>Política de Privacidade</h1>
+                <p>
+                    Esta política descreve como a BRQ Digital Solutions coleta, utiliza e protege
+                    as informações pessoais dos usuários.
+                </p>
+            </section>
+
+            <section className="page-content">
+                <h2>Coleta de Dados</h2>
+                <p>
+                    Coletamos informações fornecidas diretamente pelos usuários, como nome, e-mail
+                    e mensagens enviadas através de formulários de contato.
+                </p>
+
+                <h2>Uso das Informações</h2>
+                <p>
+                    As informações coletadas são utilizadas para melhorar nossos serviços,
+                    responder às solicitações e oferecer suporte personalizado.
+                </p>
+
+                <h2>Proteção</h2>
+                <p>
+                    Adotamos medidas de segurança para proteger os dados contra acesso não autorizado,
+                    alteração ou divulgação.
+                </p>
+
+                <h2>Direitos dos Usuários</h2>
+                <p>
+                    Você pode solicitar a exclusão ou atualização de seus dados a qualquer momento
+                    entrando em contato com nossa equipe.
+                </p>
+            </section>
+        </div>
+    );
+}
