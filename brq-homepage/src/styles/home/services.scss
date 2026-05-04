@@ -12,6 +12,13 @@
         }
     }
 
+    .services-title {
+        color: #FF6600;
+        margin-bottom: 3rem;
+        font-size: clamp(2rem, 5vw, 3rem);
+        text-align: center;
+    }
+
     .services-sidebar {
         display: flex;
         flex-direction: column;

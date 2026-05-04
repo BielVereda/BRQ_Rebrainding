@@ -1,10 +1,10 @@
-.sobre {
+.about {
     background: linear-gradient(135deg, #0A1F44, #132A5C);
     padding: 8rem 2rem;
     display: flex;
     justify-content: center;
 
-    .sobre-content {
+    .about-content {
         position: relative;
         background: linear-gradient(rgba(19, 42, 92, 0.9),
                 rgba(10, 31, 68, 0.9));
@@ -14,14 +14,14 @@
         text-align: center;
         box-shadow: 0 0 25px rgba(255, 102, 0, 0.35);
 
-        .sobre-title {
+        .about-title {
             font-size: clamp(2rem, 5vw, 3rem);
             color: #FF6600;
             text-shadow: 0 0 15px rgba(255, 102, 0, 0.6);
             margin-bottom: 1rem;
         }
 
-        .sobre-text {
+        .about-text {
             color: #eee;
             line-height: 1.8;
             font-size: 1.1rem;

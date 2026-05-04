@@ -1,27 +1,28 @@
-.contato {
+.contact {
     background: #0A1F44;
     padding: 8rem 2rem;
     text-align: center;
 
-    .contato-title {
+    .contact-content {
+        max-width: 600px;
+        margin: 0 auto;
+    }
+
+    .contact-title {
         color: #FF6600;
         margin-bottom: 1rem;
         font-size: clamp(2rem, 5vw, 3rem);
     }
 
-    .contato-text {
+    .contact-text {
         color: #dddddd;
         margin-bottom: 2rem;
     }
 
-    .contato-form {
-        position: relative;
-        background: linear-gradient(rgba(19, 42, 92, 0.9),
-                rgba(10, 31, 68, 0.9));
+    .contact-form {
+        background: linear-gradient(rgba(19, 42, 92, 0.9), rgba(10, 31, 68, 0.9));
         padding: 2rem;
         border-radius: 16px;
-        max-width: 500px;
-        margin: 0 auto;
         display: flex;
         flex-direction: column;
         gap: 1rem;
