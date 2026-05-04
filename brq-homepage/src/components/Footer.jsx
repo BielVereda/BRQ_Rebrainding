@@ -6,9 +6,10 @@ export default function Footer() {
             <div className="container footer-content">
                 <p>© 2026 BRQ Digital Solutions. Todos os direitos reservados.</p>
                 <ul className="footer-links">
-                    <li>Privacidade</li>
-                    <li>Termos de Uso</li>
-                    <li>Contato</li>
+                    <li><a href="#contact">Contato</a></li>
+
+                    <li><a href="/privacidade">Política de Privacidade</a></li>
+                    <li><a href="/termos">Termos de Uso</a></li>
                 </ul>
             </div>
         </footer>
