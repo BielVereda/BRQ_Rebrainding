@@ -55,7 +55,6 @@ export default function Terms() {
                     <p>© 2026 BRQ Digital Solutions. Todos os direitos reservados.</p>
                     <ul className="footer-links">
                         <li><Link to="/privacity">Política de Privacidade</Link></li>
-                        <li><Link to="/terms">Termos de Uso</Link></li>
                     </ul>
                 </div>
             </footer>

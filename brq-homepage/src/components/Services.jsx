@@ -95,7 +95,7 @@ export default function Services() {
                     </ul>
 
                     <button className="cta-btn">
-                        <Link to="/src/pages/LearnMore.jsx">Saiba mais
+                        <Link to="/learn-more">Saiba mais
                         <img src="/assets/images/arrow.svg" alt="arrow" /></Link>
                     </button>
 

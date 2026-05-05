@@ -4,24 +4,15 @@ import '../styles/home/footer.scss';
 import { Link } from 'react-router-dom';
 import "../styles/navbar.scss";
 import logo from "/assets/images/logo.png";
-import { useState } from "react";
 
 export default function LearnMore() {
-    const [menuOpen, setMenuOpen] = useState(false);
 
     return (
         <>
+        {/* Header */}
             <nav className="navbar">
                 <div className="navbar-content">
-                    <img src={logo} alt="BRQ Logo" className="logo" />
-
-                    <ul className={`menu ${menuOpen ? "open" : ""}`}>
-                        <li><Link to="/">Home</Link></li>
-                    </ul>
-
-                    <button className="hamburger" onClick={() => setMenuOpen(!menuOpen)}>
-                        ☰
-                    </button>
+                    <Link to="/"><img src={logo} alt="BRQ Logo" className="logo" /></Link>
                 </div>
             </nav>
 

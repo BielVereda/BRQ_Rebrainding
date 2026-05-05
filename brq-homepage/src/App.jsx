@@ -10,6 +10,7 @@ import Contact from "./components/Contact";
 import Footer from "./components/Footer";
 import Privacity from "./pages/Privacity";
 import Terms from "./pages/Terms_Of_Use";
+import LearnMore from "./pages/LearnMore";
 
 import "./styles/global.scss";
 
@@ -36,6 +37,7 @@ export default function App() {
         {/* Páginas independentes */}
         <Route path="/privacity" element={<Privacity />} />
         <Route path="/terms" element={<Terms />} />
+        <Route path="/learn-more" element={<LearnMore />} />
       </Routes>
     </Router>
   );
