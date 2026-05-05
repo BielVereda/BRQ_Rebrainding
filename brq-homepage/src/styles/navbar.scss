@@ -1,5 +1,33 @@
+// Espaçamento para seções
+#hero{
+    padding-top: 300px;
+}
+
+#clients{
+    padding: 150px 0;
+}
+
+#about{
+    padding: 150px 0;
+}
+
+#services{
+    padding: 150px 0;
+}
+
+#carrers{
+    padding: 150px 0;
+}
+
+#contact{
+    padding: 150px 0;
+}
+
 .navbar {
-    position: relative;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
     z-index: 2000;
     background: linear-gradient(180deg, #0A1F44 0%, #132A5C 100%);
     padding: 1rem 2rem;
@@ -7,7 +35,7 @@
 
     .navbar-content {
         display: flex;
-        justify-content: space-between;
+        justify-content: space-between; // logo à esquerda, menu no meio, botão à direita
         align-items: center;
     }
 
@@ -58,11 +86,16 @@
     .contact-btn {
         background: linear-gradient(90deg, #FF6600 0%, #FF8533 100%);
         border: none;
-        color: white;
         padding: 0.5rem 1rem;
         border-radius: 4px;
         cursor: pointer;
         transition: transform 0.3s ease;
+        margin-right: 3rem;
+
+        a{
+            color: white;
+            text-decoration: none;
+        }
 
         &:hover {
             transform: scale(1.05);
@@ -79,7 +112,6 @@
         z-index: 3000;
     }
 
-    /* Responsividade */
     @media (max-width: 768px) {
         .menu {
             position: absolute;

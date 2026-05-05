@@ -59,6 +59,11 @@
             font-weight: 600;
             transition: all 0.3s ease;
 
+            a {
+                color: #fff;
+                text-decoration: none;
+            }
+
             &:hover {
                 background: #FF6600;
                 transform: translateY(-3px);
@@ -76,6 +81,11 @@
             display: flex;
             align-items: center;
 
+            a {
+                color: #fff;
+                text-decoration: none;
+            }
+
             img {
                 width: 16px;
                 height: 16px;
@@ -89,6 +99,11 @@
                 color: #0A1F44;
                 transform: translateY(-3px);
 
+                a {
+                    color: #000000;
+                    text-decoration: none;
+                }
+
                 img {
                     filter: none;
                 }
@@ -97,45 +112,45 @@
 
     }
 
-.hero-image {
-    flex: 1;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    position: relative;
-
-    .image-glow {
-        position: absolute;
-        width: clamp(200px, 40vw, 400px);
-        height: clamp(200px, 40vw, 400px);
-        border-radius: 50%;
-        background: radial-gradient(circle, rgba(255, 102, 0, 0.4) 0%, transparent 80%);
-        filter: blur(60px);
-        z-index: 0;
-        animation: pulseGlow 3s infinite ease-in-out;
-    }
-
-    canvas {
-        width: 100%;
-        height: auto;
-        max-width: 600px;
-        max-height: 600px;
+    .hero-image {
+        flex: 1;
+        display: flex;
+        justify-content: center;
+        align-items: center;
         position: relative;
-        z-index: 1;
 
-        @media (max-width: 1024px) {
-            max-width: 400px;
-            max-height: 400px;
-            margin-top: 0;
+        .image-glow {
+            position: absolute;
+            width: clamp(200px, 40vw, 400px);
+            height: clamp(200px, 40vw, 400px);
+            border-radius: 50%;
+            background: radial-gradient(circle, rgba(255, 102, 0, 0.4) 0%, transparent 80%);
+            filter: blur(60px);
+            z-index: 0;
+            animation: pulseGlow 3s infinite ease-in-out;
         }
 
-        @media (max-width: 968px) {
-            max-width: 200px;
-            max-height: 200px;
-            margin-top: 0;
+        canvas {
+            width: 100%;
+            height: auto;
+            max-width: 600px;
+            max-height: 600px;
+            position: relative;
+            z-index: 1;
+
+            @media (max-width: 1024px) {
+                max-width: 400px;
+                max-height: 400px;
+                margin-top: 0;
+            }
+
+            @media (max-width: 968px) {
+                max-width: 200px;
+                max-height: 200px;
+                margin-top: 0;
+            }
         }
     }
-}
 }
 
 @keyframes pulseGlow {

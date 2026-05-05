@@ -8,21 +8,21 @@ export default function Navbar() {
     return (
         <nav className="navbar">
             <div className="navbar-content">
+                {/* Logo à esquerda */}
                 <img src={logo} alt="BRQ Logo" className="logo" />
 
-                <button className="hamburger" onClick={() => setMenuOpen(!menuOpen)}>
-                    ☰
-                </button>
-
                 <ul className={`menu ${menuOpen ? "open" : ""}`}>
-                    <li><a href="#clients">Casos de Sucesso</a></li>
                     <li><a href="#about">Sobre</a></li>
                     <li><a href="#services">Serviços</a></li>
+                    <li><a href="#clients">Casos de Sucesso</a></li>
                     <li><a href="#carrers">Carreiras</a></li>
                     <li><a href="#contact">Contato</a></li>
                 </ul>
 
-                <button className="contact-btn">Fale Conosco</button>
+                <button className="contact-btn"><a href="#contact">Fale Conosco</a></button>
+                <button className="hamburger" onClick={() => setMenuOpen(!menuOpen)}>
+                    ☰
+                </button>
             </div>
         </nav>
     );

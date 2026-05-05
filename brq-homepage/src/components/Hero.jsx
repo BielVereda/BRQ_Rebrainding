@@ -34,10 +34,9 @@ export default function Hero() {
             Transformamos desafios em inovação para impulsionar os negócios do futuro.
           </p>
           <div className="hero-buttons">
-            <button className="btn-orange">Nossas Soluções</button>
+            <button className="btn-orange"><a href="#services">Nossos Serviços</a></button>
             <button className="btn-outline">
-              Conheça a BRQ
-              <img src="/assets/images/arrow.svg" alt="arrow" />
+              <a href="#about">Conheça a BRQ<img src="/assets/images/arrow.svg" alt="arrow" /></a>
             </button>
           </div>
         </div>
