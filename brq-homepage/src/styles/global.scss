@@ -5,8 +5,15 @@ body {
     color: white;
 }
 
-/* Rolagem suave global */
-html {
+*{
+    box-sizing: border-box;
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+}
+
+/* Rolada suave global */
+html{
     scroll-behavior: smooth;
 }
 
