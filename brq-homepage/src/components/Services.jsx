@@ -4,6 +4,7 @@ import PD from "/assets/images/produtos_digitais.png";
 import DA from "/assets/images/data_analytics.png";
 import M from "/assets/images/modernizacao.png";
 import "../styles/home/services.scss";
+import { Link } from "react-router-dom";
 
 const servicesData = [
     {
@@ -94,8 +95,8 @@ export default function Services() {
                     </ul>
 
                     <button className="cta-btn">
-                        Saiba mais
-                        <img src="/assets/images/arrow.svg" alt="arrow" />
+                        <Link to="/src/pages/LearnMore.jsx">Saiba mais
+                        <img src="/assets/images/arrow.svg" alt="arrow" /></Link>
                     </button>
 
                 </div>
