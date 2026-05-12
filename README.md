@@ -1,59 +1,99 @@
-# 🚀 Projeto de Rebranding BRQ
+# BRQ Digital Solutions - Landing Page
 
-Este repositório contém o código e os recursos utilizados no projeto de **rebranding da BRQ**, incluindo a nova identidade visual, componentes de interface e animações 3D.
+Landing page institucional da **BRQ Digital Solutions**, desenvolvida em **React + Vite** e estilizada com **SCSS**.  
+O projeto apresenta informações sobre a empresa, incluindo seções de **Sobre**, **Serviços**, **Casos de Sucesso**, **Carreiras**, **Contato**, além das páginas de **Política de Privacidade** e **Termos de Uso**.
 
-## 📂 Estrutura do Projeto
+Deploy: [brq-rebrainding.vercel.app](https://brq-rebrainding.vercel.app/)
 
-- `src/components` → Componentes React (Hero, Services, etc.)
-- `src/styles` → Estilos SCSS organizados por páginas e seções
-- `assets/images` → Ícones, logotipos e imagens utilizadas
-- `assets/models` → Modelos 3D (ex: cérebro em GLTF)
-- `public` → Arquivos estáticos
+---
 
-## 🛠️ Tecnologias Utilizadas
+## 🚀 Tecnologias utilizadas
+- [React](https://react.dev/) — biblioteca para construção da interface
+- [Vite](https://vitejs.dev/) — bundler e servidor de desenvolvimento rápido
+- [React Router](https://reactrouter.com/) — gerenciamento de rotas
+- [SCSS](https://sass-lang.com/) — pré-processador CSS para estilos
 
-- **React + Vite** → Framework e bundler
-- **SCSS** → Estilização modular e responsiva
-- **Three.js + React Three Fiber** → Renderização de modelos 3D
-- **Drei** → Utilitários para manipulação de GLTF
-- **JavaScript (ES6+)**
+---
 
-## 🎨 Principais Features
-
-- Hero Section com animação 3D interativa (modelo de cérebro em rotação)
-- Services Section com cards dinâmicos, transições suaves e ícones destacados
-- Botões interativos com animações de hover e ícones responsivos
-- Design responsivo para desktop, tablet e mobile
-- Identidade visual atualizada com gradientes, cores institucionais e efeitos de glow
-
-## ⚙️ Instalação e Uso
-
-### 1. Clone o repositório:
-`bash`
+## 📂 Estrutura de pastas
 ```
-git clone https://github.com/seu-usuario/projeto-rebranding.git
+src/
+├── components/
+│    ├── Navbar.jsx
+│    ├── Hero.jsx
+│    ├── About.jsx
+│    ├── Services.jsx
+│    ├── Clients.jsx
+│    ├── Carrers.jsx
+│    ├── Contact.jsx
+│    ├── Testimonial.jsx
+│    └── Footer.jsx
+├── pages/
+│    ├── Privacity.jsx
+│    └── Terms_Of_Use.jsx
+├── styles/
+│    ├── global.scss
+│    ├── home/
+│    │    └── footer.scss
+│    └── pages/
+│         ├── privacity.scss
+│         └── terms.scss
+├── App.jsx
+└── main.jsx
+```
+## 📸 Imagens
+
+<div align="center">
+  <img src="./readme_images/1_Hero.png" width="600" />
+  <img src="./readme_images/2_About.png" width="600" />
+  <img src="./readme_images/3_Services.png" width="600" />
+  <img src="./readme_images/4_Cases.png" width="600" />
+  <img src="./readme_images/5_Carrers.png" width="600" />
+  <img src="./readme_images/6_Contact.png" width="600" />
+  <img src="./readme_images/7_TermsOfUse.png" width="600" />
+  <img src="./readme_images/8_Privacy.png" width="600" />
+  <img src="./readme_images/9_LearnMore.png" width="600" />
+</div>
+
+## ⚙️ Instalação e execução
+1. Clone o repositório:
+```
+git clone https://github.com/BielVereda/BRQ_Rebrainding.git
 ```
 
-### 2. Instale as dependências:
-`bash`
+2. Acesse o repositório:
 ```
-npm install
+cd BRQ_Rebrainding
+```
+```
+cd brq-homepage
 ```
 
-### 3. Rode o projeto em ambiente local:
-`bash`
+2. Instale as dependências:
+```
+npm i
+```
+
+3. Execute o servidor de desenvolvimento:
 ```
 npm run dev
 ```
-### 4. Acesse no navegador:
 
-`Código`
+4. Acesse no navegador:
 ```
 http://localhost:5173
 ```
 
-## 📸 Preview
-<img width="1920" height="2848" alt="screencapture-localhost-5173-2026-05-01-16_55_51" src="https://github.com/user-attachments/assets/842b14ee-f8d7-49e5-9c3e-29a10c33ab77" />
+## 🌐 Rotas disponíveis
+- `/` → **Página inicial** (Navbar, Hero, Sobre, Serviços, Casos de Sucesso, Carreiras, Contato, Footer).
+- `/privacity` → Página de **Política de Privacidade**.
+- `/terms` → Página de **Termos de Uso**.
 
-## 👨‍💻 Criador
-Gabriel — Frontend & UI
+## 🎨 Estilos
+- `global.scss`: Estilos **globais** e **resets**.
+- `home/footer.scss`: Estilos específicos do **Footer**.
+- `pages/privacity.scss`: Estilos da página de **Privacidade**.
+- `pages/terms.scss`: Estilos da página de **Termos de Uso**.
+
+## 👨‍💻 Autor
+Projeto desenvolvido por **Biel Vereda** como parte do rebranding da BRQ Digital Solutions.
