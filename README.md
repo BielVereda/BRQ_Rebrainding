@@ -42,27 +42,7 @@ src/
 `
 ## 📸 Imagens
 
-## 📸 Imagens
-
-## 📸 Imagens
-
-<p align="center">
-  <img src="./brq-homepage/readme-images/1_Hero.png" width="250" />
-  <img src="./brq-homepage/readme-images/2_About.png" width="250" />
-  <img src="./brq-homepage/readme-images/3_Services.png" width="250" />
-</p>
-
-<p align="center">
-  <img src="./brq-homepage/readme-images/4_Cases.png" width="250" />
-  <img src="./brq-homepage/readme-images/5_Carrers.png" width="250" />
-  <img src="./brq-homepage/readme-images/6_Contact.png" width="250" />
-</p>
-
-<p align="center">
-  <img src="./brq-homepage/readme-images/7_TermsOfUse.png" width="250" />
-  <img src="./brq-homepage/readme-images/8_Privacy.png" width="250" />
-  <img src="./brq-homepage/readme-images/9_LearnMore.png" width="250" />
-</p>
+![Demo](./brq-homepage/readme-images/Rebrainding.gif)
 
 ## ⚙️ Instalação e execução
 1. Clone o repositório:
