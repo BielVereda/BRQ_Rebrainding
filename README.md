@@ -3,20 +3,19 @@
 Landing page institucional da **BRQ Digital Solutions**, desenvolvida em **React + Vite** e estilizada com **SCSS**.  
 O projeto apresenta informações sobre a empresa, incluindo seções de **Sobre**, **Serviços**, **Casos de Sucesso**, **Carreiras**, **Contato**, além das páginas de **Política de Privacidade** e **Termos de Uso**.
 
-Deploy: [brq-rebrainding.vercel.app](https://brq-rebrainding.vercel.app/)
+Deploy: [Visitar o Site](https://brq-rebrainding.vercel.app/)
 
 ---
 
 ## 🚀 Tecnologias utilizadas
 - [React](https://react.dev/) — biblioteca para construção da interface
 - [Vite](https://vitejs.dev/) — bundler e servidor de desenvolvimento rápido
-- [React Router](https://reactrouter.com/) — gerenciamento de rotas
 - [SCSS](https://sass-lang.com/) — pré-processador CSS para estilos
 
 ---
 
 ## 📂 Estrutura de pastas
-```
+`
 src/
 ├── components/
 │    ├── Navbar.jsx
@@ -40,20 +39,29 @@ src/
 │         └── terms.scss
 ├── App.jsx
 └── main.jsx
-```
+`
 ## 📸 Imagens
 
-<div align="center">
-  <img src="/brq-homepage/readme-images/1_Hero.png" width="600" />
-  <img src="/brq-homepage/readme-images/2_About.png" width="600" />
-  <img src="/brq-homepage/readme-images/3_Services.png" width="600" />
-  <img src="/brq-homepage/readme-images/4_Cases.png" width="600" />
-  <img src="/brq-homepage/readme-images/5_Carrers.png" width="600" />
-  <img src="/brq-homepage/readme-images/6_Contact.png" width="600" />
-  <img src="/brq-homepage/readme-images/7_TermsOfUse.png" width="600" />
-  <img src="/brq-homepage/readme-images/8_Privacy.png" width="600" />
-  <img src="/brq-homepage/readme-images/9_LearnMore.png" width="600" />
-</div>
+## 📸 Imagens
+
+<p align="center">
+  <img src="readme-images/1_Hero.png" width="250" />
+  <img src="readme-images/2_About.png" width="250" />
+  <img src="readme-images/3_Services.png" width="250" />
+</p>
+
+<p align="center">
+  <img src="readme-images/4_Cases.png" width="250" />
+  <img src="readme-images/5_Carrers.png" width="250" />
+  <img src="readme-images/6_Contact.png" width="250" />
+</p>
+
+<p align="center">
+  <img src="readme-images/7_TermsOfUse.png" width="250" />
+  <img src="readme-images/8_Privacy.png" width="250" />
+  <img src="readme-images/9_LearnMore.png" width="250" />
+</p>
+
 
 ## ⚙️ Instalação e execução
 1. Clone o repositório:
