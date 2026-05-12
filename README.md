@@ -44,15 +44,15 @@ src/
 ## 📸 Imagens
 
 <div align="center">
-  <img src="./readme_images/1_Hero.png" width="600" />
-  <img src="./readme_images/2_About.png" width="600" />
-  <img src="./readme_images/3_Services.png" width="600" />
-  <img src="./readme_images/4_Cases.png" width="600" />
-  <img src="./readme_images/5_Carrers.png" width="600" />
-  <img src="./readme_images/6_Contact.png" width="600" />
-  <img src="./readme_images/7_TermsOfUse.png" width="600" />
-  <img src="./readme_images/8_Privacy.png" width="600" />
-  <img src="./readme_images/9_LearnMore.png" width="600" />
+  <img src="/brq-homepage/readme-images/1_Hero.png" width="600" />
+  <img src="/brq-homepage/readme-images/2_About.png" width="600" />
+  <img src="/brq-homepage/readme-images/3_Services.png" width="600" />
+  <img src="/brq-homepage/readme-images/4_Cases.png" width="600" />
+  <img src="/brq-homepage/readme-images/5_Carrers.png" width="600" />
+  <img src="/brq-homepage/readme-images/6_Contact.png" width="600" />
+  <img src="/brq-homepage/readme-images/7_TermsOfUse.png" width="600" />
+  <img src="/brq-homepage/readme-images/8_Privacy.png" width="600" />
+  <img src="/brq-homepage/readme-images/9_LearnMore.png" width="600" />
 </div>
 
 ## ⚙️ Instalação e execução
