@@ -41,22 +41,37 @@ src/
 ├── App.jsx
 └── main.jsx
 ```
+## 📸 Imagens
 
----
+<div align="center">
+  <img src="./readme_images/1_Hero.png" width="600" />
+  <img src="./readme_images/2_About.png" width="600" />
+  <img src="./readme_images/3_Services.png" width="600" />
+  <img src="./readme_images/4_Cases.png" width="600" />
+  <img src="./readme_images/5_Carrers.png" width="600" />
+  <img src="./readme_images/6_Contact.png" width="600" />
+  <img src="./readme_images/7_TermsOfUse.png" width="600" />
+  <img src="./readme_images/8_Privacy.png" width="600" />
+  <img src="./readme_images/9_LearnMore.png" width="600" />
+</div>
 
 ## ⚙️ Instalação e execução
-
 1. Clone o repositório:
 ```
-git clone https://github.com/seu-usuario/brq-landing-page.git
+git clone https://github.com/BielVereda/BRQ_Rebrainding.git
+```
+
+2. Acesse o repositório:
+```
+cd BRQ_Rebrainding
 ```
 ```
-cd brq-landing-page
+cd brq-homepage
 ```
 
 2. Instale as dependências:
 ```
-npm install
+npm i
 ```
 
 3. Execute o servidor de desenvolvimento:
@@ -70,25 +85,15 @@ http://localhost:5173
 ```
 
 ## 🌐 Rotas disponíveis
-`/` → **Página inicial** (Navbar, Hero, Sobre, Serviços, Casos de Sucesso, Carreiras, Contato, Footer).
-`/privacity` → Página de **Política de Privacidade**
-`/terms` → Página de **Termos de Uso**.
+- `/` → **Página inicial** (Navbar, Hero, Sobre, Serviços, Casos de Sucesso, Carreiras, Contato, Footer).
+- `/privacity` → Página de **Política de Privacidade**.
+- `/terms` → Página de **Termos de Uso**.
 
 ## 🎨 Estilos
-`global.scss`: Estilos **globais** e **resets**.
-`home/footer.scss`: Estilos específicos do **Footer**.
-`pages/privacity.scss`: Estilos da página de **Privacidade**.
-`pages/terms.scss`: Estilos da página de **Termos de Uso**
-
-## 📦 Deploy
-### O projeto está hospedado na **Vercel**.
-
-1. Para realizar deploy manualmente:
-```
-npm run build
-```
-
-2. Depois subir a pasta `dist/` para o **Vercel** ou outro serviço de hospedagem.
+- `global.scss`: Estilos **globais** e **resets**.
+- `home/footer.scss`: Estilos específicos do **Footer**.
+- `pages/privacity.scss`: Estilos da página de **Privacidade**.
+- `pages/terms.scss`: Estilos da página de **Termos de Uso**.
 
 ## 👨‍💻 Autor
 Projeto desenvolvido por **Biel Vereda** como parte do rebranding da BRQ Digital Solutions.
