@@ -1,16 +1,17 @@
-# BRQ Digital Solutions - Landing Page
+# 🧠 BRQ Digital Solutions - Landing Page
 
 Landing page institucional da **BRQ Digital Solutions**, desenvolvida em **React + Vite** e estilizada com **SCSS**.  
 O projeto apresenta informações sobre a empresa, incluindo seções de **Sobre**, **Serviços**, **Casos de Sucesso**, **Carreiras**, **Contato**, além das páginas de **Política de Privacidade** e **Termos de Uso**.
 
-Deploy: [Visitar o Site](https://brq-rebrainding.vercel.app/)
+- **Figma:** [Vizualizar a planta do projeto](https://www.figma.com/design/LOWGuqzdWvt0GNahxPdbEC/BRQ_Rebrainding?node-id=0-1&t=1VpWNqaCPePt7ceY-1)
+- **Deploy:** [Visitar o Site](https://brq-rebrainding.vercel.app/)
 
 ---
 
 ## 🚀 Tecnologias utilizadas
-- [React](https://react.dev/) — biblioteca para construção da interface
-- [Vite](https://vitejs.dev/) — bundler e servidor de desenvolvimento rápido
-- [SCSS](https://sass-lang.com/) — pré-processador CSS para estilos
+- [React](https://react.dev/) — Biblioteca para construção da interface
+- [Vite](https://vitejs.dev/) — Bundler e servidor de desenvolvimento rápido
+- [SCSS](https://sass-lang.com/) — Pré-processador CSS para estilos
 
 ---
 
@@ -58,17 +59,17 @@ cd BRQ_Rebrainding
 cd brq-homepage
 ```
 
-2. Instale as dependências:
+3. Instale as dependências:
 ```
 npm i
 ```
 
-3. Execute o servidor de desenvolvimento:
+4. Execute o servidor de desenvolvimento:
 ```
 npm run dev
 ```
 
-4. Acesse no navegador:
+5. Acesse no navegador:
 ```
 http://localhost:5173
 ```
