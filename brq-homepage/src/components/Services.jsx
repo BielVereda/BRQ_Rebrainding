@@ -65,7 +65,6 @@ export default function Services() {
         <section id="services" className="services">
             <h2 className="services-title">Serviços</h2>
             <div className="container services-layout">
-                {/* Sidebar */}
                 <aside className="services-sidebar">
                     {servicesData.map(service => (
                         <button
@@ -78,7 +77,6 @@ export default function Services() {
                     ))}
                 </aside>
 
-                {/* Conteúdo principal */}
                 <div
                     className={`services-content active`}
                     style={{ "--bg-icon": `url(${currentService.icon})` }}

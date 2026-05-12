@@ -8,7 +8,6 @@ export default function Navbar() {
     return (
         <nav className="navbar">
             <div className="navbar-content">
-                {/* Logo à esquerda */}
                 <img src={logo} alt="BRQ Logo" className="logo" />
 
                 <ul className={`menu ${menuOpen ? "open" : ""}`}>

@@ -17,7 +17,7 @@ function BrainModel() {
 
   scene.traverse((child) => {
     if (child.isMesh) {
-      child.material.side = THREE.DoubleSide; // garante renderização frente e verso
+      child.material.side = THREE.DoubleSide;
     }
   });
 

@@ -9,14 +9,12 @@ export default function LearnMore() {
 
     return (
         <>
-        {/* Header */}
             <nav className="navbar">
                 <div className="navbar-content">
                     <Link to="/"><img src={logo} alt="BRQ Logo" className="logo" /></Link>
                 </div>
             </nav>
 
-            {/* Conteúdo principal */}
             <div className="page learnmore">
                 <section className="page-header">
                     <h1>Saiba Mais</h1>
@@ -47,7 +45,6 @@ export default function LearnMore() {
                 </section>
             </div>
 
-            {/* Footer */}
             <footer className="footer">
                 <div className="container footer-content">
                     <p>© 2026 BRQ Digital Solutions. Todos os direitos reservados.</p>

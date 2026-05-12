@@ -34,7 +34,6 @@ export default function App() {
           }
         />
 
-        {/* Páginas independentes */}
         <Route path="/privacity" element={<Privacity />} />
         <Route path="/terms" element={<Terms />} />
         <Route path="/learn-more" element={<LearnMore />} />

@@ -1,16 +1,94 @@
-# React + Vite
+# BRQ Digital Solutions - Landing Page
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Landing page institucional da **BRQ Digital Solutions**, desenvolvida em **React + Vite** e estilizada com **SCSS**.  
+O projeto apresenta informações sobre a empresa, incluindo seções de **Sobre**, **Serviços**, **Casos de Sucesso**, **Carreiras**, **Contato**, além das páginas de **Política de Privacidade** e **Termos de Uso**.
 
-Currently, two official plugins are available:
+Deploy: [brq-rebrainding.vercel.app](https://brq-rebrainding.vercel.app/)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+---
 
-## React Compiler
+## 🚀 Tecnologias utilizadas
+- [React](https://react.dev/) — biblioteca para construção da interface
+- [Vite](https://vitejs.dev/) — bundler e servidor de desenvolvimento rápido
+- [React Router](https://reactrouter.com/) — gerenciamento de rotas
+- [SCSS](https://sass-lang.com/) — pré-processador CSS para estilos
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## 📂 Estrutura de pastas
+```
+src/
+├── components/
+│    ├── Navbar.jsx
+│    ├── Hero.jsx
+│    ├── About.jsx
+│    ├── Services.jsx
+│    ├── Clients.jsx
+│    ├── Carrers.jsx
+│    ├── Contact.jsx
+│    ├── Testimonial.jsx
+│    └── Footer.jsx
+├── pages/
+│    ├── Privacity.jsx
+│    └── Terms_Of_Use.jsx
+├── styles/
+│    ├── global.scss
+│    ├── home/
+│    │    └── footer.scss
+│    └── pages/
+│         ├── privacity.scss
+│         └── terms.scss
+├── App.jsx
+└── main.jsx
+```
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## ⚙️ Instalação e execução
+
+1. Clone o repositório:
+```
+git clone https://github.com/seu-usuario/brq-landing-page.git
+```
+```
+cd brq-landing-page
+```
+
+2. Instale as dependências:
+```
+npm install
+```
+
+3. Execute o servidor de desenvolvimento:
+```
+npm run dev
+```
+
+4. Acesse no navegador:
+```
+http://localhost:5173
+```
+
+## 🌐 Rotas disponíveis
+`/` → **Página inicial** (Navbar, Hero, Sobre, Serviços, Casos de Sucesso, Carreiras, Contato, Footer).
+`/privacity` → Página de **Política de Privacidade**
+`/terms` → Página de **Termos de Uso**.
+
+## 🎨 Estilos
+`global.scss`: Estilos **globais** e **resets**.
+`home/footer.scss`: Estilos específicos do **Footer**.
+`pages/privacity.scss`: Estilos da página de **Privacidade**.
+`pages/terms.scss`: Estilos da página de **Termos de Uso**
+
+## 📦 Deploy
+### O projeto está hospedado na **Vercel**.
+
+1. Para realizar deploy manualmente:
+```
+npm run build
+```
+
+2. Depois subir a pasta `dist/` para o **Vercel** ou outro serviço de hospedagem.
+
+## 👨‍💻 Autor
+Projeto desenvolvido por **Biel Vereda** como parte do rebranding da BRQ Digital Solutions.
