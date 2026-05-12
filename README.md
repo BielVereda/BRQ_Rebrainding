@@ -42,7 +42,7 @@ src/
 ```
 ## 📸 Imagens
 
-![Demo](./brq-homepage/readme-images/Rebrainding.gif)
+![Demo](./public/assets/images/readme-images/Rebrainding.gif)
 
 ## ⚙️ Instalação e execução
 1. Clone o repositório:
