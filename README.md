@@ -15,7 +15,7 @@ Deploy: [Visitar o Site](https://brq-rebrainding.vercel.app/)
 ---
 
 ## 📂 Estrutura de pastas
-`
+```
 src/
 ├── components/
 │    ├── Navbar.jsx
@@ -39,7 +39,7 @@ src/
 │         └── terms.scss
 ├── App.jsx
 └── main.jsx
-`
+```
 ## 📸 Imagens
 
 ![Demo](./brq-homepage/readme-images/Rebrainding.gif)
